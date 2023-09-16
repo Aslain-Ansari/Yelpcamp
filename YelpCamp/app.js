@@ -2,9 +2,6 @@ if (process.env.NODE_ENV !== "production") {
     require('dotenv').config();
 }
 
-//mnX0W2tdUVRdlaY2
-
-
 const express = require('express');
 const path = require('path');
 const mongoose = require('mongoose');
@@ -33,7 +30,6 @@ db.once("open", () => {
     console.log('Database Connected');
 });
 
-//herokuaslain12@,  authenticator app = @shuu@4321
 const app = express();
 
 app.engine('ejs', ejsMate)
